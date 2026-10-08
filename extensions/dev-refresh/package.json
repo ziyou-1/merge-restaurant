@@ -1,0 +1,10 @@
+{
+  "package_version": 2,
+  "version": "1.0.0",
+  "name": "dev-refresh",
+  "description": "本地开发用：GET http://127.0.0.1:7457/refresh 触发资源刷新，方便外部工具改完代码后让编辑器重新编译",
+  "main": "./main.js",
+  "editor": ">=3.8.0",
+  "author": "merge-restaurant",
+  "contributions": {}
+}

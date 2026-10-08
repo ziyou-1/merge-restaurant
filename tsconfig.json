@@ -1,0 +1,8 @@
+{
+  /* Cocos Creator 打开工程后会生成 temp/tsconfig.cocos.json，这里继承它 */
+  "extends": "./temp/tsconfig.cocos.json",
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true
+  }
+}

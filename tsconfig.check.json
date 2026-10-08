@@ -1,0 +1,17 @@
+{
+  /* 不开 Cocos 编辑器也能做类型检查：npm i 后 npm run typecheck */
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": true,
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "lib": ["ES2020", "DOM"],
+    "types": []
+  },
+  "files": ["node_modules/@cocos/creator-types/engine/cc.d.ts"],
+  "include": ["assets/scripts/**/*.ts"]
+}

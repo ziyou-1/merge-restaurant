@@ -1,0 +1,20 @@
+{
+  "name": "merge-restaurant",
+  "uuid": "7f0842ab-5f17-4a56-9b46-e68bac0a1d70",
+  "creator": {
+    "version": "3.8.6"
+  },
+  "type": "2d",
+  "version": "0.1.0",
+  "description": "合成 + 餐厅经营 微信小游戏原型（个人主体，广告变现）",
+  "scripts": {
+    "test": "node --no-warnings --import ./tests/register.mjs tests/core.test.ts",
+    "typecheck": "tsc -p tsconfig.check.json",
+    "sim": "node --no-warnings --import ./tests/register.mjs tools/sim.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@cocos/creator-types": "3.8.6",
+    "typescript": "^5.4.0"
+  }
+}
